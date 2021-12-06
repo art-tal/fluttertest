@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertest/widgets/backContainer.dart';
-import 'package:fluttertest/widgets/startPage.dart';
+import 'package:fluttertest/widgets/getCode.dart';
+// import 'package:fluttertest/widgets/startPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: BackContainer( StartPage() ),
+      home: BackContainer( GetCode() ),
     );
   }
 }
